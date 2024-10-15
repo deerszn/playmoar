@@ -1,0 +1,47 @@
+main {
+  display:flex;
+}
+
+header {
+  display:flex;
+  align-items:flex-end;
+  height:100px;
+  width:100%;
+  background:url(/~img/bg/forest-edge.png);
+  background-position:center;
+}
+
+article {
+  padding:1rem;
+  background:tan;
+}
+article h2 {
+  border-bottom:2px solid green;
+}
+
+nav {
+  padding:1rem;
+}
+nav h2 {
+  margin:0.5rem 0;
+  font-size:1rem;
+}
+nav ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+footer {
+  padding:1rem;
+}
+footer img {
+  display:inline-block;
+  width:88px;
+  height:31px;
+}
+
+.warning {
+  font-weight:bold;
+  color:#7e0f0f;
+}

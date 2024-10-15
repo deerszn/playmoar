@@ -1,7 +1,42 @@
-* {
+*,
+::before,
+::after {
   box-sizing:border-box;
 }
 
 html {
+  font-size:1rem;
   line-height:1.5;
+  text-size-adjust:100%;
+  tab-size:4;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:1rem 0;
+  padding:0;
+}
+
+p {
+  margin:1rem 0;
+}
+
+ul, ol {
+  margin:1rem 0;
+  padding:0 2rem;
+}
+
+li {
+  margin:0.25rem 0;
+}
+
+p:first-child, h1:first-child, h2:first-child {
+  margin-top:0;
+}
+p:last-child {
+  margin-bottom:0;
 }
