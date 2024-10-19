@@ -1,0 +1,48 @@
+:root {
+  --tx:#ccc;
+  --bg:#000;
+  --fg:#2d5f2d36;
+  --bd:#375037;
+  --ac:#1ec469;
+}
+
+body {
+  font-family:monospace;
+  color:var(--tx);
+  background:var(--bg);
+}
+
+main {
+  width:550px;
+  margin:2rem auto;
+}
+
+h2 {
+  margin:2rem 0 1rem;
+}
+
+table {
+  width:100%;
+  font-size:0.9rem;
+  border:1px solid var(--bd);
+  border-collapse:collapse;
+}
+th, td {
+  padding:5px;
+  border:1px solid var(--bd);
+}
+th {
+  background:var(--fg);
+}
+
+details {
+  font-size:0.9rem;
+}
+summary {
+  font-size:1rem;
+  font-weight:bold;
+}
+
+a {
+  color:var(--ac);
+}
